@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Multimedia</string>
+    <string name="button">Button</string>
+    <string name="tomar_video">Tomar Video</string>
+    <string name="grabar_video">Grabar Video</string>
+    <string name="galeria">Galeria</string>
+    <string name="tomar_foto">Tomar Foto</string>
+</resources>
