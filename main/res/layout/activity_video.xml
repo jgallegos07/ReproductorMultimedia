@@ -9,6 +9,19 @@
     tools:context=".Video">
 
     <Button
+        android:id="@+id/tomarVideo3"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/grabadoratama"
+        android:onClick="GrabarVideoTam"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.778"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
         android:id="@+id/Menu"
         android:layout_width="80dp"
         android:layout_height="80dp"
@@ -23,25 +36,42 @@
 
     <Button
         android:id="@+id/tomarVideo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="TomarVideo"
-        android:text="@string/grabar_video"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/iconograbadora"
+        android:onClick="GrabarVideo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintHorizontal_bias="0.158"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.127" />
+        app:layout_constraintVertical_bias="0.228" />
 
-    <VideoView
-        android:id="@+id/videoView"
-        android:layout_width="118dp"
-        android:layout_height="100dp"
+    <Button
+        android:id="@+id/tomarVideo2"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/grabadoratemp"
+        android:onClick="GrabarVideoTemp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.849"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/galeria"
+        android:onClick="galeria"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.779"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.087" />
+        app:layout_constraintVertical_bias="0.229" />
 </androidx.constraintlayout.widget.ConstraintLayout>
