@@ -10,6 +10,7 @@ import android.provider.ContactsContract;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -51,7 +52,7 @@ public class Musica extends AppCompatActivity {
         }else {
             vetormp[posicion].start();
             play_pause.setBackgroundResource(R.drawable.pausa);
-            Toast.makeText(this,"Pausa",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,"Play",Toast.LENGTH_SHORT).show();
         }
     }
 
